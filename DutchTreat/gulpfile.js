@@ -2,12 +2,18 @@
 
 var deps = {
   "jquery": {
-    "dist/*": ""
+    "scripts/*": ""
+  },
+  "jquery-validation": {
+    "scripts/*": ""
+  },
+  "jquery-validation-unobtrusive": {
+    "scripts/*": ""
   },
   "bootstrap": {
-    "dist/**/*": ""
+    "scripts/*": ""
   }
-}
+};
 
 gulp.task('default', function() {
   var streams = [];

@@ -4,6 +4,15 @@
   "private": true,
   "devDependencies": {
     "jquery": "^3.3.1",
-    "bootstrap": "^4.1.1"
+    "bootstrap": "3.3.7",
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "jquery-validation": "^1.17.0",
+    "jquery-validation-unobtrusive": "^3.2.10"
   }
 }
