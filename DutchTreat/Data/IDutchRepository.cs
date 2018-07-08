@@ -11,7 +11,9 @@ namespace DutchTreat.Data
 
         IEnumerable<Order> GetAllOrders(bool includeItem);
 
-        Order GetOrderById(int id);
+        IEnumerable<Order> GetAllOrdersByUser(string username, bool includeItems);
+
+        Order GetOrderById(string username, int id);
 
         bool SaveAll();
 
